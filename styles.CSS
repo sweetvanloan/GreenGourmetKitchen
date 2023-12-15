@@ -1,36 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Testing A Light green background */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2e7d32; /* Testing a darker shade of green */
     color: white;
     text-align: center;
     padding: 1rem 0;
+    background-image: url('header-background.jpg'); /* Testing: add a leafy background image in future commits */
 }
 
 #recipe-list {
-    margin: 2rem;
-    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 800px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .recipe {
-    border-bottom: 1px solid #eee;
-    padding: 1rem 0;
-}
-
-.recipe:last-child {
-    border-bottom: none;
+    border-bottom: 1px solid #c8e6c9; /* Testing a light green border */
+    padding: 1rem;
+    background-image: url('leaf-watermark.png'); /* Testing: add a subtle leaf watermark in future commit */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
 }
 
 .recipe h2 {
     margin: 0 0 0.5rem 0;
-    color: #4CAF50;
+    color: #43a047; /* Testing a medium green for titles */
+}
+
+.recipe p {
+    font-style: italic;
+    color: #666;
+}
+
+/* NEED TO: dd responsiveness for better mobile viewing */
+@media (max-width: 600px) {
+    #recipe-list {
+        margin: 1rem;
+    }
 }
