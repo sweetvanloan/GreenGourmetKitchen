@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#recipe-list {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+
+.recipe:last-child {
+    border-bottom: none;
+}
+
+.recipe h2 {
+    margin: 0 0 0.5rem 0;
+    color: #4CAF50;
+}
