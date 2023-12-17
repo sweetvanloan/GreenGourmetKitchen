@@ -48,36 +48,32 @@ header {
     }
 }
 
-#vegan-alternatives {
+
+section {
+    transition: background-color 0.3s;
+}
+
+section:hover {
+    background-color: #c8e6c9; /* lt green background hover */
+}
+
+#gardening-blog, #photo-upload {
     margin: 2rem auto;
     max-width: 800px;
-    background-color: #f1f8e9; /* Lighter green for contrast */
+    background-color: #f1f8e9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 1rem;
 }
 
-#vegan-alternatives h2 {
-    color: #388e3c;
+#uploaded-photos {
+    margin-top: 1rem;
+}
+
+.uploaded-photo {
+    width: 100%;
     margin-bottom: 1rem;
-}
-
-#vegan-alternatives ul {
-    list-style: none;
-    padding: 0;
-}
-
-#vegan-alternatives li {
-    background: url('leaf-icon.png') no-repeat left center; /* Optional: small leaf icon */
-    background-size: 20px;
-    padding-left: 30px; /* Adjust based on the size of the icon */
-    margin-bottom: 0.5rem;
-    font-style: italic;
+    border-radius: 8px;
 }
 
 
-@media (max-width: 600px) {
-    #vegan-alternatives {
-        margin: 1rem;
-    }
-}
