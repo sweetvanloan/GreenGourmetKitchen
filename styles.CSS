@@ -129,5 +129,13 @@ section:hover {
 }
 
 
+body {
+    /* Create a striped pattern with yellow and light green */
+    background-image: linear-gradient(45deg, #ffff99 25%, #e8f5e9 25%, #e8f5e9 50%, #ffff99 50%, #ffff99 75%, #e8f5e9 75%, #e8f5e9);
+    background-size: 56.57px 56.57px; /* Adjust the size of the stripes here */
+    
+}
+
+
 
 
