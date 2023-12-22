@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { title: 'Vegan Lasagna', description: 'A delicious layering of pasta, vegetables, and tofu cheese.' },
         { title: 'Quinoa Salad', description: 'A light, healthy salad with quinoa and fresh vegetables.' },
         { title: 'Vegan Burgers', description: 'Tasty and hearty burgers made from beans and spices.' }
-        // Add more recipes here
+        // Additional recipes go here
     ];
 
     const recipeListElement = document.getElementById('recipe-list');
