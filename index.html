@@ -3,60 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Green Gourmet Kitchen
-</title>
+    <title>Green Gourmet Kitchen</title>
     <link rel="stylesheet" href="styles.css">
-     <header>
-        <h1>Green Gourmet Kitchen</h1>
-        <p id="site-bio">
-            Welcome to GreenGourmetKitchen, where greens and giggles blend! Whether you're a full-time vegan warrior or just sneaking in a healthy, sustainable meal between your never-ending meetings, we've got you covered. Our recipes are like little high-fives to your taste buds - celebrating the joy and simplicity of plant-based cooking. No judgments here, only deliciousness! So grab your apron (or don't, we're all friends here) and let's add a splash of green to your cuisine canvas!
-        </p>
-    </header>
 </head>
 <body>
-    <header>
-        <h1>The Green Gourmet Kitchen</h1>
-      <br>
-        <h2>Plant-Based Recipes</h2>
-    </header>
-    <section id="recipe-list">
-        <!-- Recipes will be loaded here by JavaScript -->
-    </section>
-    <script src="script.js"></script>
+
+<div class="carousel">
+    <!-- Header Section -->
+    <div class="carousel-item">
+        <header>
+            <h1>Welcome to GreenGourmetKitchen</h1>
+            <p>Your destination for delightful vegan recipes!</p>
+        </header>
+    </div>
+
+    <!-- Recipe List Section -->
+    <div class="carousel-item">
+        <section id="recipe-list">
+            <h1>Vegan Recipes</h1>
+            <!-- Recipe items loaded here -->
+        </section>
+    </div>
+
+    <!-- Vegan Alternatives Section -->
+    <div class="carousel-item">
+        <section id="vegan-alternatives">
+            <h1>Vegan Ingredient Alternatives</h1>
+            <!-- Alternative items listed here -->
+        </section>
+    </div>
+
+    <!-- Comments Section -->
+    <div class="carousel-item">
+        <section id="comments-section">
+            <h1>Comments</h1>
+            <!-- Comments will be displayed here -->
+        </section>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
-
-<section id="gardening-blog">
-    <h2>Gardening For Plant-Based Recipes</h2>
-    <div id="blog-posts">
-        <!-- Blog posts load here -->
-    </div>
-</section>
-
-<section id="photo-upload">
-    <h2>Share Your Photos</h2>
-    <input type="file" id="file-input" accept="image/*" />
-    <div id="uploaded-photos">
-        <!-- Uploaded photos displayed here -->
-    </div>
-</section>
-
-
-<section id="comments-section">
-    <h2>Comments</h2>
-    <div id="comments-container">
-        <!-- Comments will be displayed here -->
-    </div>
-    <div id="comment-form">
-        <h3>Leave a Comment</h3>
-        <textarea id="comment-input" placeholder="Type your comment here..." rows="4"></textarea>
-        <button id="submit-comment">Post Comment</button>
-    </div>
-</section>
-
-
-
-
-
