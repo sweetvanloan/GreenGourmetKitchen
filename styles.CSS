@@ -107,5 +107,15 @@ header:hover, section:hover {
     background-color: #388e3c;
 }
 
+#website-bio {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #f1f8e9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    color: #333;
+}
 
 
