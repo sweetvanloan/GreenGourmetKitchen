@@ -119,3 +119,38 @@ header:hover, section:hover {
 }
 
 
+#photo-gallery {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+#website-bio {
+    background-color: #ffdd99; /* A distinct color to stand out */
+    color: #333;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-size: 1.1em;
+    border: 2px solid #4CAF50; /* Border to highlight the section */
+    text-align: center;
+}
+
+
+
