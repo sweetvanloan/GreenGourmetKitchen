@@ -1,5 +1,5 @@
 Green Gourmet Kitchen
-Welcome to the GitHub repository of GreenGourmetKitchen, a website dedicated to the art of vegan cooking. Our mission is to inspire culinary creativity with a range of delicious, healthy, and plant-based recipes.
+Welcome to the GitHub repository of Green Gourmet Kitchen, a website dedicated to the art of vegan cooking. Our mission is to inspire culinary creativity with a range of delicious, healthy, and plant-based recipes.
 
 About
 Green Gourmet Kitchen is a haven for vegans, vegetarians, and anyone interested in exploring the rich, diverse world of plant-based cuisine. Our website features an array of recipes, from quick and easy meals to gourmet dishes, each crafted to satisfy taste buds while adhering to vegan principles.
